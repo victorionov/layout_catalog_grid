@@ -1,0 +1,5 @@
+@mixin columns($min-width, $column-number, $card-width) {
+  @media (min-width: $min-width) {
+    grid-template-columns: repeat($column-number, $card-width) ;
+  }
+}
